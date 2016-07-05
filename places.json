@@ -1,0 +1,92 @@
+[
+		{
+      "id":0,
+			"name":"Amsterdam",
+			"description":"Cool place to see with great robots inside",
+			"image":"http://lorempicsum.com/futurama/100/100/1",
+      "position":{
+        "lat":"52.3702157",
+        "long":"4.895167899999933"
+      }
+		},
+		{
+      "id":1,
+			"name":"Belgrade",
+			"description":"Cool place to see with great robots inside",
+			"image":"http://lorempicsum.com/futurama/100/100/2",
+      "position":{
+        "lat":"44.786568",
+        "long":"20.44892159999995"
+      }
+		},
+		{
+      "id":2,
+			"name":"Bruxelles",
+			"description":"Cool place to see with great robots inside",
+			"image":"http://lorempicsum.com/futurama/100/100/3",
+      "position":{
+        "lat":"50.8503396",
+        "long":"4.351710300000036"
+      }
+		},
+		{
+      "id":3,
+			"name":"Bucarest",
+			"description":"Cool place to see with great robots inside",
+			"image":"http://lorempicsum.com/futurama/100/100/4",
+      "position":{
+        "lat":"44.4267674",
+        "long":"26.102538399999958"
+      }
+		},
+		{
+      "id":4,
+			"name":"Hanoï",
+			"description":"Cool place to see with great robots inside",
+			"image":"http://lorempicsum.com/futurama/100/100/5",
+      "position":{
+        "lat":"21.0277644",
+        "long":"105.83415979999995"
+      }
+		},
+		{
+      "id":5,
+			"name":"Helsinki",
+			"description":"Cool place to see with great robots inside",
+			"image":"http://lorempicsum.com/futurama/100/100/6",
+      "position":{
+        "lat":"60.16985569999999",
+        "long":"24.93837899999994"
+      }
+		},
+		{
+      "id":6,
+			"name":"Londres",
+			"description":"Cool place to see with great robots inside",
+			"image":"http://lorempicsum.com/futurama/100/100/7",
+      "position":{
+        "lat":"51.5073509",
+        "long":"-0.12775829999998223"
+      }
+		},
+		{
+      "id":7,
+			"name":"Genève",
+			"description":"Cool place to see with great robots inside",
+			"image":"http://lorempicsum.com/futurama/100/100/8",
+      "position":{
+        "lat":"46.2043907",
+        "long":"6.143157699999961"
+      }
+		},
+		{
+      "id":8,
+			"name":"Madrid",
+			"description":"Cool place to see with great robots inside",
+			"image":"http://lorempicsum.com/futurama/100/100/9",
+      "position":{
+        "lat":"40.4167754",
+        "long":"-3.7037901999999576"
+      }
+		}
+]

@@ -3,14 +3,20 @@ var express = require('express'),
     config  = require('./config'),
     quoter  = require('./quoter');
 
+var places = require('./places.json');
+
 var app = module.exports = express.Router();
 
 var jwtCheck = jwt({
   secret: config.secret
 });
 
-app.use('/api/protected', jwtCheck);
+app.use('/user/', jwtCheck);
 
-app.get('/api/protected/random-quote', function(req, res) {
+app.get('/user/random-quote', function(req, res) {
   res.status(200).send(quoter.getRandomOne());
+});
+
+app.get('/user/places', function(req, res) {
+  res.status(200).send(places);
 });
