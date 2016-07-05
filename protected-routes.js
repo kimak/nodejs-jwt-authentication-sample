@@ -4,6 +4,7 @@ var express = require('express'),
     quoter  = require('./quoter');
 
 var places = require('./places.json');
+var friends = require('./friends.json');
 
 var app = module.exports = express.Router();
 
@@ -19,4 +20,8 @@ app.get('/user/random-quote', function(req, res) {
 
 app.get('/user/places', function(req, res) {
   res.status(200).send(places);
+});
+
+app.get('/user/friends', function(req, res) {
+  res.status(200).send(friends);
 });
