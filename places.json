@@ -2,7 +2,7 @@
 		{
       "id":0,
 			"name":"Amsterdam",
-			"description":"Cool place to see with great robots inside",
+			"description":"Cool place to see with great robots inside.",
 			"image":"http://lorempicsum.com/futurama/100/100/1",
       "position":{
         "lat":"52.3702157",
